@@ -1,0 +1,24 @@
+{
+  "name": "perfil",
+  "version": "1.0.0",
+  "description": "portafolio personal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arabelia/portafolio.git"
+  },
+  "author": "abril",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arabelia/portafolio/issues"
+  },
+  "homepage": "https://github.com/arabelia/portafolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
