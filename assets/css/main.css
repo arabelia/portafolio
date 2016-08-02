@@ -49,11 +49,17 @@
 .espaciado{margin: 1em 0;}
 
 .cuadros img{margin: 0.3em; border: 8px solid #fff;}
-.contacto {width: 150px; height: 100px; border-radius: 50%;}
+
 
 /*efectos de contacto*/
 .forma1 {font-size: 40px; font-weight: 200; font-family: "courier";}
-.tam1{width: 30px;}
+.tam1{width: 30px; }
 .correo {font-size: 20px; font-family: "courier";}
-
+.contacto {width: 80px; height: 80px; margin: 0.5em;}
+.contacto img{ border-radius: 50%;}
+.contactos{background-image: url('../images/pie.jpg')}
+/*height: 250px;
+  background-image: url("../image/header-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;*/
 
