@@ -1,10 +1,25 @@
+include mixin.jade
 doctype html
 html(lang='es-PE')
 	include head.jade
-	body
+	body.centrar
 		.container
 			//-header
 			.row
-				block header
-			.row
-				h1 lunes
+				span.efectoNombre.verde A
+				span.efectoNombre.amarillo r
+				span.efectoNombre.rosa a
+				span.efectoNombre.celeste b
+				span.efectoNombre.lila e
+				span.efectoNombre.amarillo l
+				span.efectoNombre.verde2 i
+				span.efectoNombre.rosa a
+			.row.espaciado
+				block menu
+			.row.espaciado
+				block conoceme
+			.row.espaciado
+				block trabajos
+				block cuadros
+			.row.morado.espaciado
+				block contactame
