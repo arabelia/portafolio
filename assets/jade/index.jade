@@ -1,17 +1,6 @@
 extends layout.jade
 include mixin.jade
-block menu
-	ul.list-unstyled.list-inline
-		li
-			a(href="#") Conóceme
-		li
-			a(href="#") Mis Proyectos
-		li
-			a(href="#") Mis Intereses
-		li
-			a(href="#") Contáctame
-		li
-			a(href="#") Idiomas
+
 block conoceme
 	#warped
 		span.w0.verde S
@@ -23,10 +12,12 @@ block conoceme
 		span.w6.verde2 m
 		span.w7 
 		span.w8.lila i
-	p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, nobis nostrum illo repellat. Id cumque, ab odit aperiam, ipsa, quod placeat consectetur, recusandae saepe fugit quis aliquid! Quos, blanditiis, totam?
+	.sobreMi.courier  
+		p Hola, Mi nombre es Arabelia, naci en el hermoso Valle del Colca. Me gusta la naturaleza, los animales y las plantas.  
+		p Me apasiona realizar proyectos y verlos hechos realidad. Me gusta la tecnologia y la investigación, enfocados a contribuir con el bienestar de la socidad y sobre todo del medio ambiente.
 block trabajos
 	#warped
-		span.w0.Rosa M
+		span.w0.rosa M
 		span.w1.celeste i
 		span.w2.amarillo s
 		span.w3  
@@ -60,8 +51,8 @@ block cuadros
 block contactame
 	.enlinea.tam1
 		+imagen('../images/correo.png')
-	p.forma1.tblanco.enlinea Contactame
-	p.correo.tblanco arabelia.aragon.q@gmail.com
+	p.forma1.tblanco.enlinea.courier Contactame
+	p.correo.tblanco.courier arabelia.aragon.q@gmail.com
 	.contacto.enlinea
 		+imagen('../images/face.jpg')
 	.contacto.enlinea

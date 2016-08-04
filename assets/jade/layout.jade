@@ -3,21 +3,33 @@ doctype html
 html(lang='es-PE')
 	include head.jade
 	body.centrar
-		.container
+		.vacio
+			.row.capa
+				.nombre.espaciado
+					span.efectoNombre A
+					span.efectoNombre r
+					span.efectoNombre a
+					span.efectoNombre b
+					span.efectoNombre e
+					span.efectoNombre l
+					span.efectoNombre i
+					span.efectoNombre a
+				.menu
+					ul.list-unstyled.list-inline.courier
+						li
+							a(href="#") Español
+						li
+							a(href="#") English
+						li
+							a(href="#") Portugues
+		.contenedor
 			//-header
 			.row
-				span.efectoNombre.verde A
-				span.efectoNombre.amarillo r
-				span.efectoNombre.rosa a
-				span.efectoNombre.celeste b
-				span.efectoNombre.lila e
-				span.efectoNombre.amarillo l
-				span.efectoNombre.verde2 i
-				span.efectoNombre.rosa a
-			.row.espaciado
-				block menu
-			.row.espaciado
-				block conoceme
+				.col-sm-4
+					.foto1.rotar
+						img(src='../images/foto2.jpg')
+				.col-sm-8
+					block conoceme
 			.row.espaciado
 				block trabajos
 				block cuadros

@@ -1,19 +1,62 @@
-*{outline: 1px solid #3AC40F;}
-.efectoNombre{
-  color: #fff;
-  text-shadow:
-  -2px -2px 0 #000, 
-  1px -2px 0 #000,
-  -2px 2px 0 #000,
-  2px 2px 0 #000;
-  font-size: 90px;
-  font-family: 'Boogaloo', cursive;
-  padding: 0 0.1em;
+body{
+  background-image: url('../images/portada2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment:fixed; 
+  text-align: center;
+}
+.vacio{
+  width: 100%; height: 600px;
+}
+.vacio a{color: #fff; font-size: 18px;}
+.capa{
+  background:rgba(0,0,0,0.4);
+  height: 100%;
+}
+.nombre{
+  margin-top: 2em;
+  height: 100px;
+
+}
+.efectoNombre {
+color: #f2f2f2;
+text-shadow: 1px 1px 10px #3D220F;
+font-size: 100px;
+font-family: 'Unna', serif;
+}
+.menu li{
+  margin-top: 2em;
+  padding: 1em;
+  border-top: 2px solid #fff;
+}
+.menu a{
+  padding: 2em;
+  font-size: 20px; 
+  text-decoration: none;
+}
+.contenedor{
+  width: 100%; 
+  background-image: url('../images/cuerpo2.jpg');
+}
+.sobreMi{
+  width: 70%;
+  margin:auto;
+}
+.sobreMi p{
+    font-size: 20px;
+}
+/*foto*/
+.foto1 img{  width: 220px;margin-top: 5em;  border: 7px solid #fff; box-shadow: 3px 3px 4px #391D0A;}
+.rotar{
+  -webkit-transform: rotateZ(-10deg);
+  -moz-transform: rotateZ(-20deg);
+  -o-transform: rotateZ(-20deg);
 }
 
+/*texto curvo*/
 #warped {position: relative; display: block; width:330px; height:100px; margin: auto;}
 #warped>span[class^=w]:nth-of-type(n+0){display:block; position:absolute;-moz-transform-origin:50% 100%; -webkit-transform-origin:50% 100%; -o-transform-origin:50% 100%; -ms-transform-origin:50% 100%; transform-origin:50% 100%; }
-#warped span{font-family:Georgia;font-size:45px;font-weight:regular;font-style:normal;line-height:0.75; white-space:pre; overflow:visible; padding:0px;}
+#warped span{font-family:Georgia;font-size:45px;font-weight:regular;font-style:normal;line-height:0.75; white-space:pre; overflow:visible; padding:0px; text-shadow: 2px 2px 3px #391D0A;}
 #warped .w0 {-moz-transform: rotate(-6.2rad);-webkit-transform: rotate(-6.2rad);-o-transform:rotate(-6.2rad);-ms-transform: rotate(-6.2rad); transform: rotate(-6.2rad); width: 31px; height: 33px; left: 1.68px; top: 51.01px; }
 #warped .w1 {-moz-transform: rotate(-6.52rad);-webkit-transform: rotate(-6.52rad);-o-transform:rotate(-6.52rad);-ms-transform: rotate(-6.52rad); transform: rotate(-6.52rad);width: 9px; height: 33px; left: 41.3px; top: 47.04px;}
 #warped .w2 {-moz-transform: rotate(-6.56rad);-webkit-transform: rotate(-6.56rad);-o-transform:rotate(-6.56rad);-ms-transform: rotate(-6.56rad); transform: rotate(-6.56rad);width: 15px; height: 33px; left: 58.65px; top: 41.7px;}
@@ -47,14 +90,14 @@
 .centrar{text-align: center;}
 .enlinea{display: inline-block;}
 .espaciado{margin: 1em 0;}
-
-.cuadros img{margin: 0.3em; border: 8px solid #fff;}
+.courier{font-family: "courier";}
+.cuadros img{margin: 0.3em; border: 8px solid #fff; box-shadow: 3px 3px 4px #391D0A;}
 
 
 /*efectos de contacto*/
-.forma1 {font-size: 40px; font-weight: 200; font-family: "courier";}
+.forma1 {font-size: 40px; font-weight: 200;  font-weight:bold}
 .tam1{width: 30px; }
-.correo {font-size: 20px; font-family: "courier";}
+.correo {font-size: 30px; text-shadow: 3px 3px 4px #391D0A; font-weight:bold;}
 .contacto {width: 80px; height: 80px; margin: 0.5em;}
 .contacto img{ border-radius: 50%;}
 .contactos{background-image: url('../images/pie.jpg')}
