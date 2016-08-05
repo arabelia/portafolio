@@ -1,61 +1,39 @@
-extends layout.jade
 include mixin.jade
-
-block conoceme
-	#warped
-		span.w0.verde S
-		span.w1.amarillo o
-		span.w2.rosa b
-		span.w3.celeste r
-		span.w4.rosa e
-		span.w5  
-		span.w6.verde2 m
-		span.w7 
-		span.w8.lila i
-	.sobreMi.courier  
-		p Hola, Mi nombre es Arabelia, naci en el hermoso Valle del Colca. Me gusta la naturaleza, los animales y las plantas.  
-		p Me apasiona realizar proyectos y verlos hechos realidad. Me gusta la tecnologia y la investigación, enfocados a contribuir con el bienestar de la socidad y sobre todo del medio ambiente.
-block trabajos
-	#warped
-		span.w0.rosa M
-		span.w1.celeste i
-		span.w2.amarillo s
-		span.w3  
-		span.w4.lila p
-		span.w5.verde r
-		span.w6.amarillo o
-		span.w7.lila y
-		span.w8.verde2 e
-		span.w9.celeste c
-		span.w10.amarillo t
-		span.w11.rosa o
-		span.w12.celeste s
-block cuadros
-	.row
-		.col-sm-2
-		.col-sm-8
-			.row.cuadros
-				.col-sm-4
-					+imagen('../images/gentleman.png')
-				.col-sm-4
-					+imagen('../images/primes.png')
-				.col-sm-4
-					+imagen('../images/triangle.png')
-			.row.cuadros
-				.col-sm-6
-					+imagen('../images/republica.png')
-				.col-sm-6
-					+imagen('../images/descarga.jpg')
-
-		.col-sm-2
-block contactame
-	.enlinea.tam1
-		+imagen('../images/correo.png')
-	p.forma1.tblanco.enlinea.courier Contactame
-	p.correo.tblanco.courier arabelia.aragon.q@gmail.com
-	.contacto.enlinea
-		+imagen('../images/face.jpg')
-	.contacto.enlinea
-		+imagen('../images/github.png')
-
-
+doctype html
+html(lang='es-PE')
+	include head.jade
+	body.centrar
+		.row
+			#blur
+			.bubbleLarge
+			.bubbleLarge
+			.bubbleLarge
+			.bubbleLarge
+			.bubbleLarge
+			.bubbleMedium
+			.bubbleMedium
+			.bubbleMedium
+			.bubbleMedium
+			.bubbleMedium
+			.bubbleSmall
+			.bubbleSmall
+			.bubbleSmall
+			.bubbleSmall
+			.bubbleSmall
+			.bubbleSmall
+			.bubbleSmall
+			.bubbleSmall
+			.bubbleSmall
+			#hide(onclick="document.getElementById('blur').style.display = 'none';")
+			#show(onclick="document.getElementById('blur').style.display = 'inline';")
+			+nombre('A','r','a','b','e','l','i','a')
+			.menu
+				ul.list-unstyled.list-inline.courier
+					li
+						a(href="espanol.html") Español
+					li
+						a(href="#") English
+					li
+						a(href="#") Portugues
+			.separadorPortada
+				img(src='../images/separadorPortada.png')
